@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-color: pink;
+}
+/*cabecera*/
+header{
+    min-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 39%, rgba(203,202,202,1) 100%);
+}
+
+#logo img{
+    height: 120px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+}
+
+#tittle {
+    position: relative;
+    left: 220px;
+    top: 35px;
+    font-size: 45px;
+    animation: 2s entradalogo 1;
+
+}
+
+#logo img:hover {
+    filter: grayscale(100);
+}
+
+
+/*cabecera*/
+
+
+
+
+/*Menu-Horizontal*/
+#horizontal {
+    max-width: 1000;
+    min-height: 50px;
+    background-color: #000;
+}
+
+#horizontal ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+#horizontal a{
+color: white;
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+position: relative;
+left: -90px;
+top: 5px;
+}
+
+#horizontal a:hover{
+    color: #e82fdb;
+
+}
+
+#horizontal ul ul{
+    display: none;
+    position: absolute;
+}
+
+#horizontal ul li:hover ul{
+    display: block;
+    
+}
+
+
+
+
+/*Menu-Horizontal*/
+
+
+#banner img {
+margin-top: 1px;
+margin-left: -0.5px;
+width: 1065px;
+height: 310px;
+}
+
+
+#banner {
+    min-width: 1000px;
+    min-height: 250px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    height: 310px;
+}
+
+#banner img {
+    margin-top: 1px;
+    margin-left: -0.5px;
+    width: 1065px;
+    height: 310px;
+    }
+
+
+    #banner {
+        min-width: 1000px;
+        min-height: 250px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        height: 310px;
+    }
+
+
+    #banner{
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    #banner ul{
+        display: flex;
+        animation: slider 15s infinite;
+        width: 400%;
+    }
+    
+    #banner li {
+        width: 100%;
+        list-style: none;
+    }
+    
+    
+    #banner img{
+        width: 100%;
+        height: 500px;
+    }
+
+#contenedor{
+    max-width: 1000;
+    min-height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+
+
+/**Contenido**/
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#contenido h2{
+    position: relative;
+    left: 290px;
+}
+
+#contenido img {
+    position: relative;
+    left: 20px;
+    float: left;
+    width: 150px;
+    margin: 20px;
+}
+
+#contenido p {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: -500px;
+    top: -20px;
+    margin: 20px;
+}
+
+.content .tax {
+    margin: 40px;
+}
+
+
+.father-ing {
+    position: absolute;
+    display: inline-block;
+    top: 650px;
+    right: 220px;
+}
+
+/**Contenido**/
+
+
+
+footer{
+    max-width: 1000;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+
+
+
+/*keyframe*/
+
+@keyframes entradalogo {
+    0%{
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes rotacion{
+    0%{
+        transform: rotate(270deg);
+    }
+}
+
+
+@keyframes slider{
+    0%{margin-left:  0%;}
+    20%{margin-left:  0%;}
+
+    25%{margin-left:  -100%;}
+    45%{margin-left:  -100%;}
+
+    50%{margin-left:  -200%;}
+    70%{margin-left:  -200%;}
+
+    75%{margin-left:  -300%;}
+    100%{margin-left:  -300%;}
+}

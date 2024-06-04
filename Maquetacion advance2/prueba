@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salon Mariela</title>
+</head>
+<body>
+    
+<header>
+    <!--LOGO-->
+    <section id="logo">
+        <a href="index.html">
+        <img src="logo.png" alt="Logo">
+        </a>
+    <h2 id="tittle">Salon Mariela</h2>
+
+
+    </section>
+    <!--LOGO-->
+</header>
+
+
+<!--Menu-Horizontal-->
+<nav id="horizontal">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        </li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="Servicio. html"> Servicio </a></li> 
+    </ul>
+</nav>
+<!--Menu-Horizontal-->
+
+<!--banner-->
+<section id="banner">
+    <ul>
+        <li><img src="ferreterias.jpg" alt=""></li>
+        <li><img src="imagenes/ alt=""></li>
+        <li><img src="imagenes/" alt=""></li>
+        <li><img src="imagenes/email.png" alt=""></li>
+    </ul>
+</section>
+
+
+
+<!--banner-->
+
+<section id="contenedor">
+
+<!--Contenido-->
+    <section id="contenido">
+
+            <div class="content">
+                <div class="tax">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium! Aut dolor enim soluta rem! Labore hic sequi fugit unde amet soluta sapiente, officia, eos magni perspiciatis rem, illo placeat maiores aperiam enim. Minima repellat expedita voluptates at pariatur optio eos iste facilis. Eligendi possimus non animi repellendus deleniti cum quisquam nisi nostrum earum iure ipsa totam autem, placeat reiciendis.</p>
+                </div>
+                <div class="tax">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium! Aut dolor enim soluta rem! Labore hic sequi fugit unde amet soluta sapiente, officia, eos magni perspiciatis rem, illo placeat maiores aperiam enim. Minima repellat expedita voluptates at pariatur optio eos iste facilis. Eligendi possimus non animi repellendus deleniti cum quisquam nisi nostrum earum iure ipsa totam autem, placeat reiciendis.</p>
+                </div>
+                <div class="tax">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium! Aut dolor enim soluta rem! Labore hic sequi fugit unde amet soluta sapiente, officia, eos magni perspiciatis rem, illo placeat maiores aperiam enim. Minima repellat expedita voluptates at pariatur optio eos iste facilis. Eligendi possimus non animi repellendus deleniti cum quisquam nisi nostrum earum iure ipsa totam autem, placeat reiciendis.</p>
+                </div>
+            </div>
+<div class="father-ing">
+<div>
+    <img src="barbi.png" alt="">
+</div>
+<div>
+    <img src="barbi.png" alt="">
+</div>
+<div>
+    <img src="barbi.png" alt="">
+</div>
+</div>
+    </section>
+<!--Contenido-->
+
+
+
+
+</section>
+
+<!--pie de pagina-->
+        <footer>
+    <p class="pie">Derechos Reservados &copy; 2021</p>
+    <p>Diseñado por: Laudy Ramirez Vicente.
+       Chadwin Herminio.
+       Keysi Yohanna Herrera.
+       Jeury A.  
+    </p>
+    <p>Email: monarca.ep@gmail.com</p>
+    <p>Lider en calidad y precio</p>
+</footer>
+<!--pie de pagina-->
+
+</body>
+</html>
